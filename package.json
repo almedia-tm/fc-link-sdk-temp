@@ -1,6 +1,6 @@
 {
   "name": "com.almedia.link",
-  "version": "0.2.0-preview.2",
+  "version": "0.2.1-preview.1",
   "displayName": "Almedia Link",
   "description": "Embeds account linking and reward-notification flows from Freecash into Unity-based mobile games. Wraps native iOS and Android plugins via a Unity bridge.",
   "unity": "2022.3",
@@ -9,6 +9,7 @@
     "url": "https://almedia.com"
   },
   "license": "SEE LICENSE IN LICENSE.md",
+  "documentationUrl": "https://github.com/almedia-tm/fc-link-sdk-temp",
   "keywords": [
     "almedia",
     "link",
@@ -18,6 +19,6 @@
     "sdk"
   ],
   "dependencies": {
-    "com.unity.textmeshpro": "3.0.7"
+    "com.unity.textmeshpro": "3.0.6"
   }
 }

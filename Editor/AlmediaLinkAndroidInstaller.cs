@@ -20,7 +20,7 @@ namespace AlmediaLink.Editor
     internal static class AlmediaLinkAndroidInstaller
     {
         private const string PkgDepsFile =
-            "Packages/com.almedia.link/Plugins/Android/AlmediaLinkDependencies.xml";
+            "Packages/com.almedia.link/Editor/AlmediaLinkDependencies.xml";
 
         private const string TargetPath = "Assets/Plugins/Android/mainTemplate.gradle";
 

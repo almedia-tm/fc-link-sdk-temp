@@ -4,6 +4,12 @@ All notable changes to the Almedia Link Unity SDK are documented in this file. T
 
 ## [Unreleased]
 
+## [0.2.1-preview.1] - 2026-05-12
+
+### Changed
+- Moved `AlmediaLinkDependencies.xml` from `Plugins/Android/` to `Editor/` (EDM4U convention). The manual-install fallback (`Almedia → Install Android Dependencies`) now reads from the new location.
+- Android symbol files now ship as two release artifacts, one per `.aar`: `AlmediaLink-android-sdk-mapping-<version>.txt` and `AlmediaLink-android-bridge-mapping-<version>.txt` (previously a single combined `mapping.txt`).
+
 ## [0.2.0-preview.2] - 2026-05-07
 
 First public preview of the upcoming v0.2.0 release.

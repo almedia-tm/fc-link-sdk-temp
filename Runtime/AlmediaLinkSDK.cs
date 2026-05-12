@@ -9,7 +9,7 @@ namespace AlmediaLink
 {
     public static class AlmediaLinkSDK
     {
-        public static string Version => "0.2.0-preview.2";
+        public static string Version => "0.2.1-preview.1";
 
         public static event Action<AlmediaSDKState> OnInitialized;
         public static event Action<AlmediaStatus> OnStatusChanged;
